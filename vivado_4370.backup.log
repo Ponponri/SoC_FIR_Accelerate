@@ -1,0 +1,466 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  8 22:05:33 2023
+# Process ID: 4370
+# Current directory: /mnt/hgfs/shared_folder/LAB4_2
+# Command line: vivado
+# Log file: /mnt/hgfs/shared_folder/LAB4_2/vivado.log
+# Journal file: /mnt/hgfs/shared_folder/LAB4_2/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2496.000 MHz, CPU Physical cores: 16, Host memory: 16729 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+update_compile_order -fileset sources_1
+add_files -norecurse /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v' cannot be added to the project because it already exists in the project, skipping this file
+add_files {/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_project_wrapper.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/wb2axi.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram12.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram11.v}
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_project_wrapper.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/wb2axi.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram12.v' cannot be added to the project because it already exists in the project, skipping this file
+WARNING: [filemgmt 56-12] File '/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram11.v' cannot be added to the project because it already exists in the project, skipping this file
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'caravel'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'caravel' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj caravel_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM128
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VexRiscv
+INFO: [VRFC 10-311] analyzing module StreamFifoLowLatency
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VexRiscv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/chip_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chip_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_control_block
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_holdover' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:178]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_slow_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:179]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_vtrip_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:180]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_inenb' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:181]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ib_mode_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:182]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ana_en' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:183]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ana_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:184]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ana_pol' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:185]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_dm' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:186]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_outenb' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:187]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:188]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_in' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:189]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'one' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:192]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'zero' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:193]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'user_gpio_in' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:195]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_data_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:197]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_defaults_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_defaults_block
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'gpio_defaults' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_defaults_block.v:80]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module housekeeping
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_trim' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:231]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_div' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:232]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:233]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll90_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:234]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_dco_ena' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:235]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_ena' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:236]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_bypass' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:237]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pwr_ctrl_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:263]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr1_vcc_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:270]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr2_vcc_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:271]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr1_vdd_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:272]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr2_vdd_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:273]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'irq' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:279]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'trap' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:281]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_data_1' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:298]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_data_2' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:299]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_clock' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:300]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_resetn' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:301]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_load' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:302]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mgmt_gpio_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:313]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'wb_ack_o' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:379]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'wb_dat_o' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:380]
+INFO: [VRFC 10-311] analyzing module boledu_fd_sc_hd__clkbuf_8
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'X' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:1510]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping_spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module housekeeping_spi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mgmt_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mgmt_core_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mprj_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mprj_io
+INFO: [VRFC 10-311] analyzing module boledu_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module user_proj_example
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'io_in' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:74]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'io_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:75]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'io_oeb' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:76]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_project_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module user_project_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/wb2axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb2axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/caravel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module caravel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot caravel_behav xil_defaultlib.caravel xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot caravel_behav xil_defaultlib.caravel xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:340]
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:866]
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:917]
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:930]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.boledu_io
+Compiling module xil_defaultlib.mprj_io_default
+Compiling module xil_defaultlib.chip_io
+Compiling module xil_defaultlib.RAM256_default
+Compiling module xil_defaultlib.RAM128_default
+Compiling module xil_defaultlib.InstructionCache
+Compiling module xil_defaultlib.VexRiscv
+Compiling module xil_defaultlib.mgmt_core
+Compiling module xil_defaultlib.mgmt_core_wrapper
+Compiling module xil_defaultlib.user_proj_example
+Compiling module xil_defaultlib.wb2axi
+Compiling module xil_defaultlib.fir
+Compiling module xil_defaultlib.bram(N=12,DEPTH=11)
+Compiling module xil_defaultlib.user_project_wrapper
+Compiling module xil_defaultlib.boledu_fd_sc_hd__clkbuf_8
+Compiling module xil_defaultlib.housekeeping_spi
+Compiling module xil_defaultlib.housekeeping
+Compiling module xil_defaultlib.gpio_defaults_block
+Compiling module xil_defaultlib.gpio_control_block
+Compiling module xil_defaultlib.caravel
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot caravel_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "caravel_behav -key {Behavioral:sim_1:Functional:caravel} -tclbatch {caravel.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source caravel.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'caravel_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 7881.305 ; gain = 62.230 ; free physical = 9922 ; free virtual = 14616
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:11:36 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 7894.633 ; gain = 0.000 ; free physical = 9392 ; free virtual = 14171
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7937.684 ; gain = 0.000 ; free physical = 9280 ; free virtual = 14059
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 8027.820 ; gain = 133.188 ; free physical = 9151 ; free virtual = 13933
+export_ip_user_files -of_objects  [get_files /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram12.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram11.v] -no_script -reset -force -quiet
+remove_files  {/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram12.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram11.v}
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:14:08 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8354.988 ; gain = 0.000 ; free physical = 8827 ; free virtual = 13625
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 8354.988 ; gain = 0.000 ; free physical = 8772 ; free virtual = 13570
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+add_files -norecurse {/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram12.v /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram11.v}
+update_compile_order -fileset sources_1
+show_objects -name bram [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:20:43 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:22:15 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8669.965 ; gain = 0.000 ; free physical = 8747 ; free virtual = 13551
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8669.965 ; gain = 0.000 ; free physical = 8673 ; free virtual = 13478
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:24:20 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:28:53 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:29:07 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8669.965 ; gain = 0.000 ; free physical = 8589 ; free virtual = 13394
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8669.965 ; gain = 0.000 ; free physical = 8523 ; free virtual = 13327
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:32:16 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8686.961 ; gain = 0.000 ; free physical = 8570 ; free virtual = 13375
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8686.961 ; gain = 0.000 ; free physical = 8502 ; free virtual = 13307
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:36:23 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 8715.980 ; gain = 0.000 ; free physical = 8547 ; free virtual = 13353
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8715.980 ; gain = 0.000 ; free physical = 8469 ; free virtual = 13274
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Wed Nov  8 22:42:51 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8763.020 ; gain = 0.000 ; free physical = 8426 ; free virtual = 13232
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8763.020 ; gain = 0.000 ; free physical = 8364 ; free virtual = 13169
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+

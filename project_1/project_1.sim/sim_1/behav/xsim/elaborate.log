@@ -1,0 +1,38 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot caravel_behav xil_defaultlib.caravel xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:340]
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:866]
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:917]
+WARNING: [VRFC 10-5021] port 'VPWR' is not connected on this instance [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:930]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.boledu_io
+Compiling module xil_defaultlib.mprj_io_default
+Compiling module xil_defaultlib.chip_io
+Compiling module xil_defaultlib.RAM256_default
+Compiling module xil_defaultlib.RAM128_default
+Compiling module xil_defaultlib.InstructionCache
+Compiling module xil_defaultlib.VexRiscv
+Compiling module xil_defaultlib.mgmt_core
+Compiling module xil_defaultlib.mgmt_core_wrapper
+Compiling module xil_defaultlib.user_proj_example
+Compiling module xil_defaultlib.wb2axi
+Compiling module xil_defaultlib.fir
+Compiling module xil_defaultlib.bram(N=12,DEPTH=11)
+Compiling module xil_defaultlib.user_project_wrapper
+Compiling module xil_defaultlib.boledu_fd_sc_hd__clkbuf_8
+Compiling module xil_defaultlib.housekeeping_spi
+Compiling module xil_defaultlib.housekeeping
+Compiling module xil_defaultlib.gpio_defaults_block
+Compiling module xil_defaultlib.gpio_control_block
+Compiling module xil_defaultlib.caravel
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot caravel_behav

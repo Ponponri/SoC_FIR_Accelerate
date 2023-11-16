@@ -1,0 +1,199 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov 16 00:57:24 2023
+# Process ID: 61915
+# Current directory: /mnt/hgfs/shared_folder/LAB4_2
+# Command line: vivado
+# Log file: /mnt/hgfs/shared_folder/LAB4_2/vivado.log
+# Journal file: /mnt/hgfs/shared_folder/LAB4_2/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2496.000 MHz, CPU Physical cores: 16, Host memory: 16729 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 7724.832 ; gain = 70.285 ; free physical = 7017 ; free virtual = 11731
+update_compile_order -fileset sources_1
+add_files -norecurse /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/lutram.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'user_proj_example' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:38]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'user_proj_example()' found in library 'xil_defaultlib'
+Duplicate found at line 40 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.counter.v
+	(Active) Duplicate found at line 38 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v
+[Thu Nov 16 01:05:10 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 7942.582 ; gain = 0.000 ; free physical = 5544 ; free virtual = 10853
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7998.125 ; gain = 0.000 ; free physical = 5444 ; free virtual = 10753
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 8032.137 ; gain = 89.555 ; free physical = 5300 ; free virtual = 10612
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+[Thu Nov 16 01:11:16 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+[Thu Nov 16 01:15:32 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8403.723 ; gain = 0.000 ; free physical = 7078 ; free virtual = 12602
+INFO: [Netlist 29-17] Analyzing 402 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8403.723 ; gain = 0.000 ; free physical = 6994 ; free virtual = 12517
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+[Thu Nov 16 01:18:13 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8455.828 ; gain = 0.000 ; free physical = 7001 ; free virtual = 12525
+INFO: [Netlist 29-17] Analyzing 402 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8455.828 ; gain = 0.000 ; free physical = 6924 ; free virtual = 12448
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+[Thu Nov 16 01:21:31 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+[Thu Nov 16 01:22:04 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8501.859 ; gain = 0.000 ; free physical = 6977 ; free virtual = 12503
+INFO: [Netlist 29-17] Analyzing 402 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8501.859 ; gain = 0.000 ; free physical = 6907 ; free virtual = 12433
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/utils_1/imports/synth_1/caravel.dcp with file /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/caravel.dcp
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-3756] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'VexRiscv()' found in library 'xil_defaultlib'
+Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v
+	(Active) Duplicate found at line 46 of file /mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v
+[Thu Nov 16 01:25:17 2023] Launched synth_1...
+Run output will be captured here: /mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_2
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 8525.848 ; gain = 0.000 ; free physical = 6911 ; free virtual = 12439
+INFO: [Netlist 29-17] Analyzing 402 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+Finished Parsing XDC File [/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.srcs/constrs_2/new/dream_team.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8525.848 ; gain = 0.000 ; free physical = 6842 ; free virtual = 12369
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 38 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+show_objects -name ram [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+show_objects -name data [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+show_objects -name data_ram [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+show_objects -name lutram [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+show_objects -name bram [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+show_objects -name tap [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BMEM.*.* } ]
+show_objects -name ram [get_nets -hierarchical -top_net_of_hierarchical_group "*" ]
+show_objects -name tap [get_nets -hierarchical -top_net_of_hierarchical_group "*" ]
+show_objects -name dataBRAM [get_nets -hierarchical -top_net_of_hierarchical_group "*" ]
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 01:35:06 2023...

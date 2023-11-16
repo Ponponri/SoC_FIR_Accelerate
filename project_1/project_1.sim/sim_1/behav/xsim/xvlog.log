@@ -1,0 +1,86 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM128
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VexRiscv
+INFO: [VRFC 10-311] analyzing module StreamFifoLowLatency
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VexRiscv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'VexRiscv' [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v:46]
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/chip_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chip_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fir
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_control_block
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_holdover' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:178]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_slow_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:179]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_vtrip_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:180]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_inenb' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:181]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ib_mode_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:182]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ana_en' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:183]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ana_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:184]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_ana_pol' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:185]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_dm' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:186]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_outenb' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:187]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:188]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pad_gpio_in' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:189]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'one' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:192]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'zero' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:193]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'user_gpio_in' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:195]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_data_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v:197]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_defaults_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_defaults_block
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'gpio_defaults' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_defaults_block.v:80]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module housekeeping
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_trim' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:231]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_div' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:232]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:233]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll90_sel' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:234]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_dco_ena' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:235]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_ena' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:236]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pll_bypass' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:237]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'pwr_ctrl_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:263]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr1_vcc_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:270]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr2_vcc_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:271]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr1_vdd_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:272]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'usr2_vdd_pwrgood' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:273]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'irq' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:279]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'trap' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:281]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_data_1' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:298]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_data_2' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:299]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_clock' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:300]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_resetn' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:301]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'serial_load' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:302]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'mgmt_gpio_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:313]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'wb_ack_o' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:379]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'wb_dat_o' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:380]
+INFO: [VRFC 10-311] analyzing module boledu_fd_sc_hd__clkbuf_8
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'X' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v:1510]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping_spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module housekeeping_spi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mgmt_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mgmt_core_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mprj_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mprj_io
+INFO: [VRFC 10-311] analyzing module boledu_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module user_proj_example
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'io_in' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:74]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'io_out' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:75]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'io_oeb' is not allowed [/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v:76]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_project_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module user_project_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/wb2axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wb2axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/caravel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module caravel
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

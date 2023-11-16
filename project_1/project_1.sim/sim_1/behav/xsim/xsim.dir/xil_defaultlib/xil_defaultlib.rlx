@@ -1,0 +1,25 @@
+0.7
+2020.2
+Apr 18 2022
+15:53:03
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/header/defines.v,1699333667,verilog,,,,,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/header/user_defines.v,1699333667,verilog,,,,,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v,1699333667,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v,,StreamFifoLowLatency,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebugCache.v,1699333667,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram.v,,InstructionCache;VexRiscv,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/caravel.v,1699347500,verilog,,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/header/defines.v;/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/header/user_defines.v,caravel,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/chip_io.v,1699343815,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/header/defines.v,chip_io,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v,1699345557,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_defaults_block.v,,gpio_control_block,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_defaults_block.v,1699345605,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v,,gpio_defaults_block,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping.v,1699345750,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping_spi.v,,boledu_fd_sc_hd__clkbuf_8;housekeeping,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/housekeeping_spi.v,1699345926,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core.v,,housekeeping_spi,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core.v,1699333667,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core_wrapper.v,,mgmt_core,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mgmt_core_wrapper.v,1699345823,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mprj_io.v,,mgmt_core_wrapper,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/mprj_io.v,1699333667,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v,,boledu_io;mprj_io,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/bram.v,1699510274,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/chip_io.v,,bram,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/fir.v,1699333667,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/gpio_control_block.v,,fir,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_proj_example.gcd.v,1699347760,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_project_wrapper.v,,user_proj_example,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/user_project_wrapper.v,1699345795,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/wb2axi.v,,user_project_wrapper,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/user/wb2axi.v,1699333667,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/caravel.v,,wb2axi,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM128.v,1699347710,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM256.v,,RAM128,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/vip/RAM256.v,1699347672,verilog,,/mnt/hgfs/shared_folder/LAB4_2/lab-exmem_fir/rtl/soc/VexRiscv_MinDebug.v,,RAM256,,,,,,,,
+/mnt/hgfs/shared_folder/LAB4_2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,

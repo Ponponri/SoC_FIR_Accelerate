@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov 16 02:35:24 2023
+# Process ID: 88693
+# Current directory: /mnt/hgfs/shared_folder/LAB4_2/project_2/project_2.runs/synth_1
+# Command line: vivado -log user_project_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source user_project_wrapper.tcl
+# Log file: /mnt/hgfs/shared_folder/LAB4_2/project_2/project_2.runs/synth_1/user_project_wrapper.vds
+# Journal file: /mnt/hgfs/shared_folder/LAB4_2/project_2/project_2.runs/synth_1/vivado.jou
+# Running On: ubuntu, OS: Linux, CPU Frequency: 2496.000 MHz, CPU Physical cores: 16, Host memory: 16729 MB
+#-----------------------------------------------------------
+source user_project_wrapper.tcl -notrace
