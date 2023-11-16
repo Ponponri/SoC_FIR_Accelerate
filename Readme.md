@@ -36,6 +36,7 @@ source run_sim
 
 3. Timing
 ![](image/timing.png)
+![](image/timing2.png)
 
 4. log file
 ![](image/log.png)
