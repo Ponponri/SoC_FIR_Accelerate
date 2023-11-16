@@ -18,7 +18,6 @@
 ```
 cd ./lab-exmem_fir/testbench/counter_la_fir
 ```
-![](image/tree.png) 
 
 4. Run the following command, and the result would display on the terminal.
 ```
