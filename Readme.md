@@ -1,7 +1,3 @@
-# SOC Design LAB4-2 Group 11
-
-- Introduce the content of the work, and how to replicate the work. (replicate to run simulation)
-
 ## Overview
 
 - This project can extend the capability of caravel soc with FIR operation.
