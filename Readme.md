@@ -3,7 +3,7 @@
 - This project can extend the capability of caravel soc with FIR operation.
 - We add two type of FIR operation: software only and hardware accelerator.
 
-## Run code 
+## Execute
 
 1. You need to build caravel soc environment (toolchain) on Linux.
 
